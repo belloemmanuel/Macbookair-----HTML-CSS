@@ -1,18 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
 
-.item {
-  width: 300px;
-  height: 100px;
-  background-color: brown;
-  border: 2px solid red;
+h3 {
+  font-size: 32px;
 }
 
-.container {
+.signup-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  height: auto;
   flex-wrap: wrap;
+}
+
+.signup-form {
+  padding: 100px 0px 0px 50px;
+}
+
+.signup-form-heading > p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.signup-inputs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+input {
+  padding: 10px 0px 10px 15px;
+  margin-top: 20px;
+  width: 419px;
+  border-radius: 6px;
+  border: 1px solid whitesmoke;
+}
+
+.sign-img {
 }
