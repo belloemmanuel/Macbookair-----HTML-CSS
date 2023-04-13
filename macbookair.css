@@ -111,6 +111,7 @@ input[type] {
   display: flex;
   justify-content: center;
   margin-top: 80px;
+  margin-bottom: 20px;
 }
 
 span > a {
@@ -139,6 +140,7 @@ span > a:hover {
   flex-direction: column;
   align-content: center;
   margin-top: 100px;
+  width: auto;
 }
 
 .login-form-heading > p {
@@ -164,6 +166,7 @@ span > a:hover {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 /*-----------------login ends-------------------*/
@@ -268,3 +271,7 @@ input[type='number']::-webkit-outer-spin-button {
 }
 
 /*-----------------verifycode end-----------------*/
+
+.img {
+  width: 100%;
+}
