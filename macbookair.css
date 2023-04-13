@@ -216,7 +216,7 @@ span > a:hover {
 
 /*----------forget password ends--------------*/
 
-/*-----------------verifycode-----------------*/
+/*-----------------verifycode start-----------------*/
 
 .verifycode-container {
   display: flex;
@@ -267,4 +267,4 @@ input[type='number']::-webkit-outer-spin-button {
   opacity: 0;
 }
 
-/*-----------------verifycode-----------------*/
+/*-----------------verifycode end-----------------*/
