@@ -22,7 +22,7 @@ h3 {
 .signup-form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  margin-top: 100px;
   align-content: center;
 }
 
@@ -126,15 +126,19 @@ span > a:hover {
 /*--------------signup-------------------*/
 
 /*--------------login-------------------*/
+
 .login-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   height: auto;
   flex-wrap: wrap;
 }
 
 .login-form {
-  padding: 100px 50px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-top: 100px;
 }
 
 .login-form-heading > p {
