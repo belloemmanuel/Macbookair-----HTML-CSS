@@ -215,3 +215,56 @@ span > a:hover {
 }
 
 /*----------forget password ends--------------*/
+
+/*-----------------verifycode-----------------*/
+
+.verifycode-container {
+  display: flex;
+  justify-content: space-evenly;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.verifycode-form {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-top: 100px;
+}
+
+.verifycode-form-heading > p {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.verifycode-form-inputs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.verifycode-form-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.verifycode-form-buttons {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.verifycode-form-heading {
+  width: 350px;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  opacity: 0;
+}
+
+/*-----------------verifycode-----------------*/
