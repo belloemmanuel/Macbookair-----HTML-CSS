@@ -10,16 +10,20 @@ h3 {
   font-size: 32px;
 }
 
+/*--------------signup-------------------*/
+
 .signup-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   height: auto;
-  flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
 .signup-form {
-  padding: 100px 0px 0px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
 .signup-form-heading > p {
@@ -117,4 +121,43 @@ span > a {
 
 span > a:hover {
   color: #aaa;
+}
+
+/*--------------signup-------------------*/
+
+/*--------------login-------------------*/
+.login-container {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.login-form {
+  padding: 100px 50px 0px 0px;
+}
+
+.login-form-heading > p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.login-form-inputs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.login-form-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.login-form-buttons {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
