@@ -10,7 +10,7 @@ h3 {
   font-size: 32px;
 }
 
-/*--------------signup-------------------*/
+/*--------------signup starts-------------------*/
 
 .signup-container {
   display: flex;
@@ -123,9 +123,9 @@ span > a:hover {
   color: #aaa;
 }
 
-/*--------------signup-------------------*/
+/*--------------signup ends-------------------*/
 
-/*--------------login-------------------*/
+/*-----------------login----------------------*/
 
 .login-container {
   display: flex;
@@ -165,3 +165,53 @@ span > a:hover {
   flex-direction: column;
   flex-wrap: wrap;
 }
+
+/*-----------------login ends-------------------*/
+
+/*----------forget password starts--------------*/
+
+.forgetpassword-container {
+  display: flex;
+  justify-content: space-evenly;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.forgetpassword-form {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-top: 100px;
+}
+
+.forgetpassword-form-heading > p {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.forgetpassword-form-inputs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.forgetpassword-form-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.forgetpassword-form-buttons {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.forgetpassword-form-heading {
+  width: 350px;
+}
+
+/*----------forget password ends--------------*/
