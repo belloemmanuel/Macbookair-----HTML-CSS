@@ -76,6 +76,7 @@ input[type] {
   color: white;
   border: none;
   cursor: pointer;
+  width: 100%;
 }
 
 .createaccountbtn:hover {
@@ -92,6 +93,7 @@ input[type] {
   display: flex;
   justify-content: center;
   border: 3px solid #3a3a3a;
+  width: 100%;
 }
 
 .googlebtn:hover {
@@ -293,4 +295,34 @@ input[type='number']::-webkit-outer-spin-button {
 
 .next {
   right: 0;
+}
+
+@media (max-width: 1500px) {
+  .signup-img {
+    display: none;
+  }
+  .signup-form {
+    padding: 50px;
+  }
+
+  .signup-container {
+    justify-content: center;
+    padding: 50px;
+  }
+
+  .login-img {
+    display: none;
+  }
+  .login-form {
+    margin-right: 10px;
+  }
+
+  .login-container {
+    justify-content: center;
+    padding: 50px;
+  }
+
+  .signup-form-heading {
+    text-align: center;
+  }
 }
