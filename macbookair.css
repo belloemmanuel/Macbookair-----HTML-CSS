@@ -14,7 +14,8 @@ h3 {
 
 .signup-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  gap: 50px;
   height: auto;
   flex-wrap: wrap;
 }
@@ -24,6 +25,7 @@ h3 {
   flex-direction: column;
   margin-top: 100px;
   align-content: center;
+  margin-left: 150px;
 }
 
 .signup-form-heading > p {
@@ -129,7 +131,8 @@ span > a:hover {
 
 .login-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  gap: 50px;
   height: auto;
   flex-wrap: wrap;
 }
@@ -139,6 +142,7 @@ span > a:hover {
   flex-direction: column;
   align-content: center;
   margin-top: 100px;
+  margin-right: 150px;
 }
 
 .login-form-heading > p {
@@ -269,12 +273,24 @@ input[type='number']::-webkit-outer-spin-button {
 
 /*-----------------verifycode end-----------------*/
 
-.arrows {
-  display: flex;
-  justify-content: space-between;
-  color: white;
-  position: absolute;
+.signup-img img {
+  position: relative;
 }
 
-.sign-img {
+.signup-img button {
+  position: absolute;
+  color: white;
+  z-index: 999;
+  top: 50%;
+  padding: 15px;
+  border: none;
+  background-color: #3a3a3a69;
+  font-size: 32px;
+}
+
+.prev {
+}
+
+.next {
+  right: 0;
 }
