@@ -290,6 +290,21 @@ input[type='number']::-webkit-outer-spin-button {
   font-size: 32px;
 }
 
+.login-img img {
+  position: relative;
+}
+
+.login-img button {
+  position: absolute;
+  color: white;
+  z-index: 999;
+  top: 50%;
+  padding: 15px;
+  border: none;
+  background-color: #3a3a3a69;
+  font-size: 32px;
+}
+
 .prev {
 }
 
