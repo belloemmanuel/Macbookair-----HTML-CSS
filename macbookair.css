@@ -275,6 +275,8 @@ input[type='number']::-webkit-outer-spin-button {
 
 /*-----------------verifycode end-----------------*/
 
+/*-----------------signup arrow starts----------------*/
+
 .signup-img img {
   position: relative;
 }
@@ -289,6 +291,17 @@ input[type='number']::-webkit-outer-spin-button {
   background-color: #3a3a3a69;
   font-size: 32px;
 }
+
+.signup-img .prev {
+}
+
+.signup-img .next {
+  right: 0;
+}
+
+/*-----------------signup arrow ends----------------*/
+
+/*-----------------login arrow starts----------------*/
 
 .login-img img {
   position: relative;
@@ -305,12 +318,14 @@ input[type='number']::-webkit-outer-spin-button {
   font-size: 32px;
 }
 
-.prev {
+.login-img .prev {
 }
 
-.next {
-  right: 0;
+.login-img .next {
+  left: 0;
 }
+
+/*-----------------loginarrow ends----------------*/
 
 @media (max-width: 1500px) {
   .signup-img {
