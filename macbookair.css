@@ -226,7 +226,8 @@ span > a:hover {
 
 .verifycode-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  gap: 50px;
   height: auto;
   flex-wrap: wrap;
 }
@@ -236,18 +237,18 @@ span > a:hover {
   flex-direction: column;
   align-content: center;
   margin-top: 100px;
+  margin-right: 250px;
 }
 
 .verifycode-form-heading > p {
   font-size: 14px;
   margin-top: 10px;
-  margin-bottom: 50px;
 }
 
 .verifycode-form-inputs {
   display: flex;
   flex-direction: column;
-  margin-top: 200px;
+  margin-top: 50px;
   margin-bottom: 30px;
   flex-wrap: wrap;
 }
@@ -264,13 +265,13 @@ span > a:hover {
   flex-wrap: wrap;
 }
 
-.verifycode-form-heading {
-  width: 350px;
-}
-
 input[type='number']::-webkit-inner-spin-button,
 input[type='number']::-webkit-outer-spin-button {
   opacity: 0;
+}
+
+.token {
+  width: 50px;
 }
 
 /*-----------------verifycode end-----------------*/
@@ -318,23 +319,57 @@ input[type='number']::-webkit-outer-spin-button {
   font-size: 32px;
 }
 
-.login-img .prev {
-  right: 100%;
-  border: 1px solid red;
+.login-img button:hover {
+  background-color: #07070769;
 }
 
-.login-img .next {
+.login-img .prev {
   left: 0;
 }
 
+.login-img .next {
+  margin-left: -47px;
+}
+
 /*-----------------loginarrow ends----------------*/
+
+/*-----------------verifycode starts----------------*/
+
+.verifycode-img img {
+  position: relative;
+}
+
+.verifycode-img button {
+  position: absolute;
+  color: white;
+  z-index: 999;
+  top: 50%;
+  padding: 15px;
+  border: none;
+  background-color: #3a3a3a69;
+  font-size: 32px;
+}
+
+.verifycode-img button:hover {
+  background-color: #07070769;
+}
+
+.verifycode-img .prev {
+  left: 0;
+}
+
+.verifycode-img .next {
+  margin-left: -47px;
+}
+
+/*-----------------verifycode ends----------------*/
 
 @media (max-width: 1500px) {
   .signup-img {
     display: none;
   }
   .signup-form {
-    padding: 50px;
+    padding: 10px;
   }
 
   .signup-container {
@@ -355,14 +390,13 @@ input[type='number']::-webkit-outer-spin-button {
 
   .login-container {
     justify-content: center;
-    padding: 50px;
   }
 
   .login-form-heading {
     text-align: center;
   }
 
-  .forgetpassword-img {
+  /* .forgetpassword-img {
     display: none;
   }
   .forgetpassword-form {
@@ -375,6 +409,21 @@ input[type='number']::-webkit-outer-spin-button {
   }
 
   .forgetpassword-form-heading {
+    text-align: center;
+  } */
+  .verifycode-img {
+    display: none;
+  }
+  .verifycode-form {
+    margin-right: 10px;
+  }
+
+  .verifycode-container {
+    justify-content: center;
+    padding: 50px;
+  }
+
+  .verifycode-form-heading {
     text-align: center;
   }
 }

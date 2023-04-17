@@ -26,8 +26,10 @@
   </head>
   <body>
     <div class="verifycode-container">
-      <div class="sign-img">
-        <img src="images/Image.png" />
+      <div class="verifycode-img">
+        <img class="img" src="images/Image.png" />
+        <button class="prev"><img src="images/Arrow 4.png" /></button>
+        <button class="next"><img src="images/Arrow 3.png" /></button>
       </div>
       <div class="verifycode-form">
         <div class="login-form-heading">
@@ -35,7 +37,14 @@
           <p>Code is sent to nickname@mail.com</p>
         </div>
         <div class="verifycode-form-inputs">
-          <input type="number" placeholder="" />
+          <div class="tokens">
+            <input type="number" class="token" placeholder="" />
+            <input type="number" class="token" placeholder="" />
+            <input type="number" class="token" placeholder="" />
+            <input type="number" class="token" placeholder="" />
+            <input type="number" class="token" placeholder="" />
+            <input type="number" class="token" placeholder="" />
+          </div>
         </div>
         <div class="verifycode-form-buttons">
           <button type="submit" class="createaccountbtn">
