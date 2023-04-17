@@ -144,7 +144,7 @@ span > a:hover {
   flex-direction: column;
   align-content: center;
   margin-top: 100px;
-  margin-right: 150px;
+  margin-right: 200px;
 }
 
 .login-form-heading > p {
@@ -189,7 +189,7 @@ span > a:hover {
   flex-direction: column;
   align-content: center;
   margin-top: 100px;
-  margin-right: 150px;
+  margin-right: 200px;
 }
 
 .forgetpassword-form-heading > p {
@@ -330,7 +330,7 @@ input[type='number']::-webkit-outer-spin-button {
 
 /*-----------------loginarrow ends----------------*/
 
-/*-----------------verifycode starts----------------*/
+/*-----------------verifycode arrow----------------*/
 
 .verifycode-img img {
   position: relative;
@@ -359,14 +359,45 @@ input[type='number']::-webkit-outer-spin-button {
   margin-left: -47px;
 }
 
-/*-----------------verifycode ends----------------*/
+/*-----------------verifycode arrow ends----------------*/
+
+/*-----------------forgetpassword arrow ends----------------*/
+
+.forgetpassword-img img {
+  position: relative;
+}
+
+.forgetpassword-img button {
+  position: absolute;
+  color: white;
+  z-index: 999;
+  top: 50%;
+  padding: 15px;
+  border: none;
+  background-color: #3a3a3a69;
+  font-size: 32px;
+}
+
+.forgetpassword-img button:hover {
+  background-color: #07070769;
+}
+
+.forgetpassword-img .prev {
+  left: 0;
+}
+
+.forgetpassword-img .next {
+  margin-left: -47px;
+}
+
+/*-----------------forgetpassword arrow ends----------------*/
 
 @media (max-width: 1500px) {
   .signup-img {
     display: none;
   }
   .signup-form {
-    padding: 10px;
+    margin-left: 10px;
   }
 
   .signup-container {
@@ -393,7 +424,7 @@ input[type='number']::-webkit-outer-spin-button {
     text-align: center;
   }
 
-  /* .forgetpassword-img {
+  .forgetpassword-img {
     display: none;
   }
   .forgetpassword-form {
@@ -402,12 +433,12 @@ input[type='number']::-webkit-outer-spin-button {
 
   .forgetpassword-container {
     justify-content: center;
-    padding: 50px;
   }
 
   .forgetpassword-form-heading {
     text-align: center;
-  } */
+  }
+
   .verifycode-img {
     display: none;
   }
