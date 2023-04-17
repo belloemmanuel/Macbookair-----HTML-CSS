@@ -178,7 +178,8 @@ span > a:hover {
 
 .forgetpassword-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  gap: 50px;
   height: auto;
   flex-wrap: wrap;
 }
@@ -188,12 +189,12 @@ span > a:hover {
   flex-direction: column;
   align-content: center;
   margin-top: 100px;
+  margin-right: 150px;
 }
 
 .forgetpassword-form-heading > p {
   font-size: 14px;
   margin-top: 10px;
-  margin-bottom: 50px;
 }
 
 .forgetpassword-form-inputs {
@@ -214,10 +215,6 @@ span > a:hover {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-}
-
-.forgetpassword-form-heading {
-  width: 350px;
 }
 
 /*----------forget password ends--------------*/
