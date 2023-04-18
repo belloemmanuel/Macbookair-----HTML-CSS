@@ -400,11 +400,11 @@ input[type='number']::-webkit-outer-spin-button {
   }
   .signup-form {
     margin-left: 10px;
-    padding: 55px;
   }
 
   .signup-container {
     justify-content: center;
+    padding: 50px;
   }
 
   .signup-form-heading {
@@ -416,12 +416,11 @@ input[type='number']::-webkit-outer-spin-button {
   }
   .login-form {
     margin-right: 10px;
-    padding: 55px;
   }
 
   .login-container {
     justify-content: center;
-    padding: 55px;
+    padding: 50px;
   }
 
   .login-form-heading {
@@ -437,6 +436,7 @@ input[type='number']::-webkit-outer-spin-button {
 
   .forgetpassword-container {
     justify-content: center;
+    padding: 50px;
   }
 
   .forgetpassword-form-heading {
