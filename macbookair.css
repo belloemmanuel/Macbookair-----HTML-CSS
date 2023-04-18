@@ -4,7 +4,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
 }
 
 h3 {
@@ -399,12 +399,12 @@ input[type='number']::-webkit-outer-spin-button {
     display: none;
   }
   .signup-form {
-    margin-left: 10px;
+    margin-left: 100px;
+    padding: 50px;
   }
 
   .signup-container {
     justify-content: center;
-    padding: 20px;
   }
 
   .signup-form-heading {
@@ -420,7 +420,7 @@ input[type='number']::-webkit-outer-spin-button {
 
   .login-container {
     justify-content: center;
-    padding: 20px;
+    padding: 40px;
   }
 
   .login-form-heading {
