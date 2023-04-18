@@ -404,7 +404,7 @@ input[type='number']::-webkit-outer-spin-button {
 
   .signup-container {
     justify-content: center;
-    padding: 50px;
+    padding: 20px;
   }
 
   .signup-form-heading {
@@ -420,7 +420,7 @@ input[type='number']::-webkit-outer-spin-button {
 
   .login-container {
     justify-content: center;
-    padding: 50px;
+    padding: 20px;
   }
 
   .login-form-heading {
@@ -436,7 +436,7 @@ input[type='number']::-webkit-outer-spin-button {
 
   .forgetpassword-container {
     justify-content: center;
-    padding: 50px;
+    padding: 20px;
   }
 
   .forgetpassword-form-heading {
@@ -452,7 +452,7 @@ input[type='number']::-webkit-outer-spin-button {
 
   .verifycode-container {
     justify-content: center;
-    padding: 50px;
+    padding: 20px;
   }
 
   .verifycode-form-heading {
