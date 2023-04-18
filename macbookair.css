@@ -404,7 +404,7 @@ input[type='number']::-webkit-outer-spin-button {
 
   .signup-container {
     justify-content: center;
-    padding: 70px;
+    padding: 60px;
   }
 
   .signup-form-heading {
@@ -420,7 +420,7 @@ input[type='number']::-webkit-outer-spin-button {
 
   .login-container {
     justify-content: center;
-    padding: 70px;
+    padding: 60px;
   }
 
   .login-form-heading {
