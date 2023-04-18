@@ -77,7 +77,7 @@ input[type] {
   color: white;
   border: none;
   cursor: pointer;
-  width: 90%;
+  width: 97%;
 }
 
 .createaccountbtn:hover {
@@ -94,7 +94,7 @@ input[type] {
   display: flex;
   justify-content: center;
   border: 3px solid #3a3a3a;
-  width: 90%;
+  width: 97%;
 }
 
 .googlebtn:hover {
@@ -460,6 +460,6 @@ input[type='number']::-webkit-outer-spin-button {
   }
 
   input {
-    width: 90%;
+    width: 97%;
   }
 }
