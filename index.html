@@ -6,20 +6,10 @@
       name="viewport"
       content="width=device-width, initial-scale=1"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
-      crossorigin
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
-    <script
-      src="https://kit.fontawesome.com/a076d05399.js"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://kit.fontawesome.com/3e2e7f9e03.js"
-      crossorigin="anonymous"
-    ></script>
     <link rel="stylesheet" href="macbookair.css" />
     <title>MacBook Air</title>
   </head>
@@ -31,12 +21,42 @@
           <p>Let's get started with your 30 day free trial</p>
         </div>
         <div class="signup-form-inputs">
-          <input type="text" placeholder="Name" />
-          <input type="email" placeholder="Email" />
-          <input type="password" placeholder="Password" />
+          <input
+            type="text"
+            placeholder="Name"
+            name="name"
+            value=""
+            id="name"
+          />
+          <p id="nameError"></p>
+          <input
+            type="mail"
+            placeholder="Email"
+            value=""
+            name="email"
+            id="email"
+          />
+          <p id="emailError"></p>
+          <input
+            type="password"
+            placeholder="Password"
+            value=""
+            name="password"
+            id="password"
+          />
+          <p id="passwordError"></p>
+          <i class="fa fa-sharp fa-light fa-eye" id="fa-eye"></i>
+          <i
+            class="fa-sharp fa-solid fa-eye-slash"
+            id="fa-eye-slash"
+          ></i>
         </div>
         <div class="signup-form-buttons">
-          <button type="submit" class="createaccountbtn">
+          <button
+            type="submit"
+            class="createaccountbtn"
+            id="creatAccnt"
+          >
             Create account
           </button>
           <button type="submit" class="googlebtn">
@@ -59,4 +79,5 @@
       </div>
     </div>
   </body>
+  <script src="mackbookair.js"></script>
 </html>

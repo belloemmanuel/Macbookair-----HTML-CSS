@@ -40,6 +40,7 @@ h3 {
   margin-top: 50px;
   margin-bottom: 30px;
   flex-wrap: wrap;
+  position: relative;
 }
 
 input {
@@ -390,6 +391,23 @@ input[type='number']::-webkit-outer-spin-button {
 
 .forgetpassword-img .next {
   margin-left: -47px;
+}
+
+.fa-eye {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.fa-eye-slash {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 15px;
+  margin-bottom: 16px;
+  display: none;
 }
 
 /*-----------------forgetpassword arrow ends----------------*/
