@@ -8,9 +8,9 @@ const nameError = document.getElementById('nameError');
 const emailError = document.getElementById('emailError');
 const passwordError = document.getElementById('passwordError');
 
-// btn.addEventListener('click', getValue);
-// eye.addEventListener('click', revealPassword);
-// faEyeSlash.addEventListener('click', hidePassword);
+btn.addEventListener('click', getValue);
+eye.addEventListener('click', revealPassword);
+faEyeSlash.addEventListener('click', hidePassword);
 
 function hidePassword() {
   password.type = 'password';
