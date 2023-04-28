@@ -4,9 +4,6 @@ const password = document.getElementById('password');
 const eye = document.getElementById('fa-eye');
 const faEyeSlash = document.getElementById('fa-eye-slash');
 const btn = document.getElementById('creatAccnt');
-const nameError = document.getElementById('nameError');
-const emailError = document.getElementById('emailError');
-const passwordError = document.getElementById('passwordError');
 
 btn.addEventListener('click', getValue);
 eye.addEventListener('click', revealPassword);
@@ -25,19 +22,7 @@ function revealPassword() {
 }
 
 function getValue() {
-  if (username.value === '') {
-    nameError.textContent = 'Please enter your name';
-  } else {
-    console.log(`Username: ${username.value}`);
-  }
-  if (email.value === '') {
-    emailError.textContent = 'Please enter your email';
-  } else {
-    console.log(`Email: ${email.value}`);
-  }
-  if (password.value === '') {
-    passwordError.textContent = 'Please enter your password';
-  } else {
-    console.log(`Password: ${password.value}`);
-  }
+  console.log(`Username: ${username.value}`);
+  console.log(`Email: ${email.value}`);
+  console.log(`Password: ${password.value}`);
 }
