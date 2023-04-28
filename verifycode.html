@@ -37,16 +37,16 @@
         </div>
         <div class="verifycode-form-inputs">
           <div class="tokens">
-            <input type="number" maxlength="2" class="token" />
-            <input type="number" class="token" />
-            <input type="number" class="token" />
-            <input type="number" class="token" />
-            <input type="number" class="token" />
-            <input type="number" class="token" />
+            <input type="text" maxlength="1" class="token" id="input1"/>
+            <input  type="text" maxlength="1" class="token" id="input2"/>
+            <input  type="text" maxlength="1" class="token" id="input3"/>
+            <input  type="text" maxlength="1" class="token" id="input4"/>
+            <input  type="text" maxlength="1" class="token" id="input5"/>
           </div>
         </div>
+        <p id="message"></p>
         <div class="verifycode-form-buttons">
-          <button type="submit" class="createaccountbtn">
+          <button type="submit" class="createaccountbtn" id="verifybtn">
             Verify
           </button>
         </div>
@@ -60,4 +60,5 @@
       </div>
     </div>
   </body>
+  <script src="verify.js"></script>
 </html>
