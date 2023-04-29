@@ -14,11 +14,3 @@ emailMessage.style.color = 'red'
     emailMessage.innerHTML = " "
     passwordMessage.innerHTML = 'please enter password'
 } 
-if(password.value != Number(12345)){
-    passwordMessage.innerHTML = 'please enter correct password'
-    passwordMessage.style.color = 'red'
-} else{
-    passwordMessage.innerHTML = " "
-    emailMessage.innerHTML = 'please enter email'
-}
-}
