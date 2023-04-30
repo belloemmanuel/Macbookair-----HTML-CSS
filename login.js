@@ -12,5 +12,5 @@ emailMessage.innerHTML = "please enter correct email"
 emailMessage.style.color = 'red'
 } else{
     emailMessage.innerHTML = " "
-    passwordMessage.innerHTML = 'please enter password'
+    passwordMessage.innerHTML = 'please password'
 } 
