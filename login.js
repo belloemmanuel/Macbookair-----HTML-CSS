@@ -6,11 +6,23 @@ const passwordMessage = document.getElementById('password-message')
 
 createAccountBtn.addEventListener('click', getValue)
 
+let myEmail = 'belloemmanuel02@gmail.com'
+let myPassword = '12345'
+
 function getValue(){
-if(email.value != String('belloemmanuel02@gmail.com' || email.value == '')){
-emailMessage.innerHTML = "please enter correct email"
-emailMessage.style.color = 'red'
-} else{
-    emailMessage.innerHTML = " "
-    passwordMessage.innerHTML = 'please password'
-} 
+   if(email.value == ''){
+    emailMessage.innerHTML = 'please enter email'
+   } else if(email.value !== myEmail){
+    emailMessage.innerHTML = 'please enter correct email'
+   } else{
+    emailMessage.innerHTML = ''
+    passwordMessage.innerHTML = 'please enter password'
+   }
+   if(password.value == ''){
+    passwordMessage.innerHTML = 'please enter password'
+   } else if(password.value !== myPassword){
+    passwordMessage.innerHTML = 'please enter correct password'
+   } else{
+    passwordMessage.innerHTML = ''
+   }
+}
