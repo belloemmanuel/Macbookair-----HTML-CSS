@@ -3,17 +3,47 @@ const email = document.getElementById('email');
 const password = document.getElementById('password');
 const eye = document.getElementById('fa-eye');
 const faEyeSlash = document.getElementById('fa-eye-slash');
-const btn = document.getElementById('creatAccnt');
+const createBtn = document.getElementById('creatAccnt');
 const verifybtn = document.getElementById('verifybtn')
-const nameMessage = document.getElementById('nameMessage')
+const usernameMessage = document.getElementById('nameMessage')
 const emailMessage = document.getElementById('emailMessage')
 const passwordMessage = document.getElementById('passwordMessage')
 
 
-btn.addEventListener('click', getValue);
+createBtn.addEventListener('click', getValue);
 eye.addEventListener('click', revealPassword);
 faEyeSlash.addEventListener('click', hidePassword);
 
+const defaultUsername = 'Bello Emmanuel'
+const defaultEmail = 'belloemmanuel02@gmail.com'
+const defaultPassword = '12345'
+
+function getValue(){
+  if(username.value == ''){
+    username.style.border = '1px solid red'
+    password.style.border = '1px solid red'
+    email.style.border = '1px solid red'
+  } else if(username.value !== defaultUsername){
+    username.style.border = '1px solid yellow'
+    email.style.border = '1px solid red'
+  } else{
+    username.style.border = '1px solid green'
+    password.style.border = '1px solid red'
+    email.style.border = '1px solid red'
+  } if(email.value == ''){
+    email.style.border == '1px solid red'
+  } else if(email.value !== defaultEmail){
+    email.style.border = '1px solid yellow'
+  } else{
+    email.style.border = '1px solid green'
+  } if(password.value == ''){
+    password.style.border == '1px solid red'
+  } else if(password.value !== defaultPassword){
+    password.style.border = '1px solid yellow'
+  } else{
+    password.style.border = '1px solid green'
+  } 
+}
 
 function hidePassword() {
   password.type = 'password';
