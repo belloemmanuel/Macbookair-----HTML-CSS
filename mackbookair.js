@@ -4,11 +4,6 @@ const password = document.getElementById('password');
 const eye = document.getElementById('fa-eye');
 const faEyeSlash = document.getElementById('fa-eye-slash');
 const createBtn = document.getElementById('creatAccnt');
-const verifybtn = document.getElementById('verifybtn')
-const usernameMessage = document.getElementById('nameMessage')
-const emailMessage = document.getElementById('emailMessage')
-const passwordMessage = document.getElementById('passwordMessage')
-
 
 createBtn.addEventListener('click', getValue);
 eye.addEventListener('click', revealPassword);
@@ -17,6 +12,13 @@ faEyeSlash.addEventListener('click', hidePassword);
 const defaultUsername = 'Bello Emmanuel'
 const defaultEmail = 'belloemmanuel02@gmail.com'
 const defaultPassword = '12345'
+
+let values = {
+  defaultEmail : 'belloemmanuel02@gmail.com',
+  defaultPassword : '12345',
+  defaultUsername : 'Bello Emmanuel'
+}
+export default values;
 
 function getValue(){
   if(username.value == ''){
@@ -46,8 +48,6 @@ function getValue(){
     // window.location.href = "login.html"
   }
 }
-
-
 
 function hidePassword() {
   password.type = 'password';

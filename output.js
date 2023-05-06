@@ -1,4 +1,3 @@
+import values from "./data";
 
-import test from './mackbookair.js'
-
-console.log(test)
+console.log(values)
