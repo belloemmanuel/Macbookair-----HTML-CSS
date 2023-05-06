@@ -24,6 +24,9 @@ function getValue(){
     passwordMessage.innerHTML = 'Please Enter Correct Password'
    } else{
     passwordMessage.innerHTML = ''
+   } if(email.value == myEmail && password.value == myPassword){
+      alert('Welcome, Click to continue');
+      window.location.href = "index.html"
    }
 }
 
@@ -42,3 +45,4 @@ passwordMessage.style.color = 'red'
 passwordMessage.style.color = 'green'
 }
 }
+

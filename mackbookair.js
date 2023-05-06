@@ -42,8 +42,12 @@ function getValue(){
     password.style.border = '1px solid yellow'
   } else{
     password.style.border = '1px solid green'
-  } 
+  } if(username.value == defaultUsername && email.value == defaultEmail && password.value == defaultPassword){
+    // window.location.href = "login.html"
+  }
 }
+
+
 
 function hidePassword() {
   password.type = 'password';
@@ -56,8 +60,4 @@ function revealPassword() {
   eye.style.display = 'none';
   faEyeSlash.style.display = 'block';
 }
-
-const myPassword = '12345'
-const myEmail = 'belloemmanuel02@gmail.com'
-const myUsername = 'Bello Emmanuel'
 
