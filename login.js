@@ -26,7 +26,7 @@ function getValue(){
     passwordMessage.innerHTML = ''
    } if(email.value == myEmail && password.value == myPassword){
       alert('Welcome, Click to continue');
-      window.location.href = "index.html"
+      window.location.href = "output.html"
    }
 }
 

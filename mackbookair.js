@@ -1,3 +1,5 @@
+import values from "./data.js";
+
 const username = document.getElementById('name');
 const email = document.getElementById('email');
 const password = document.getElementById('password');
@@ -9,16 +11,9 @@ createBtn.addEventListener('click', getValue);
 eye.addEventListener('click', revealPassword);
 faEyeSlash.addEventListener('click', hidePassword);
 
-const defaultUsername = 'Bello Emmanuel'
-const defaultEmail = 'belloemmanuel02@gmail.com'
-const defaultPassword = '12345'
-
-let values = {
-  defaultEmail : 'belloemmanuel02@gmail.com',
-  defaultPassword : '12345',
-  defaultUsername : 'Bello Emmanuel'
-}
-export default values;
+const defaultUsername = values.defaultUsername
+const defaultEmail = values.defaultEmail
+const defaultPassword = values.defaultPassword
 
 function getValue(){
   if(username.value == ''){
@@ -45,7 +40,7 @@ function getValue(){
   } else{
     password.style.border = '1px solid green'
   } if(username.value == defaultUsername && email.value == defaultEmail && password.value == defaultPassword){
-    // window.location.href = "login.html"
+    window.location.href = "login.html"
   }
 }
 
